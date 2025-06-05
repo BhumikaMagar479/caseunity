@@ -31,12 +31,12 @@ const popular= [
  { 
   image: "image/marbel.png",
   title: "Phone Cases",
-  description: "MARBEL Rs 850 - Rs 1100"
+  description: "MARBLE Rs 850 - Rs 1100"
 },
  { 
   image: "image/marbel2.png",
   title: "Phone Cases",
-  description: "MARBEL Rs 850 - Rs 1100"
+  description: "MARBLE Rs 850 - Rs 1100"
 },
 ];
 const popularContainer = document.getElementById("popular-container");

@@ -149,13 +149,13 @@ input:invalid{
   margin: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-   transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
   
 }
 .popular-card:hover ,.popular1-card:hover, .bestselling-card:hover,.bestselling1-card:hover{
     overflow: hidden;
     cursor: pointer; 
-     transform: translateY(-20px);
+    transform: translateY(-20px);
 }
 .popular, .popular1, .bestselling{
   display: flex ;
@@ -206,12 +206,13 @@ input:invalid{
   background-color:white;
   width: 170x;
   padding: 2px;
-
+  
 }
 .container-g{
   color: black;
   position: relative;
   text-align: center;
+  
 }
 .gods img{
     height: 250px;
@@ -223,7 +224,7 @@ input:invalid{
   display: flex;
   gap: 3rem;
   padding: 0%;
-
+  
 }
 .gods-4{
   display: flex;
@@ -234,9 +235,9 @@ input:invalid{
    display: flex;
    flex-direction: row;
    justify-content: center;
-  
    flex-wrap: wrap;
    gap: 5.5rem;
+   
  }
 .shop, h1, p{
     text-align: center;

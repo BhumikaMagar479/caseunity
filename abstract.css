@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+}
+.navbar {
+    z-index: 10000;
+    padding: 30px;
+    margin: 0;
+    background-color: #2c3e50;
+    position:relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: x-large;
+    margin-left: 40px;
+ 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    font-size: x-large;
+    margin-right: 50px;
+}
+.navbar ul li{
+    height: 25px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.navbar a::after{
+    content:"" ;
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: orange;
+    margin-top: 3px;
+    transition: 0.2s;
+}
+.navbar a:hover::after{
+     width: 100%;
+}
+.navlinks.active{
+    display: flex;
+}
+.foot {
+  text-align: center;
+ margin-bottom: 0px;
+ background-color:#2c3e50;
+ justify-content: space-between;
+ padding:  20px;
+ color:white;
+
+}
+.logo-f{
+    gap: 10rem;
+}
+.f-head{
+    display: flex;
+    gap: 2rem;
+}
+.f-tail{
+     padding-top: 50px;
+     padding-bottom: 0%;
+}
+
+.use{
+    text-align: right;
+    float: right;
+}
+.Reserved{
+    margin-bottom: 50px;
+    padding-top:50px;
+    padding-bottom: 0%;
+}
+.ribbon{
+      position: absolute;
+      top:10px;
+      left: -10px;
+      height: 23px;
+      color: white;
+      transform: rotate(-47deg);
+      font-weight:bold;
+      text-align: center;
+      background-color: rgb(220 38 38 );
+      width: 6rem;
+      clip-path: polygon(20% 10%, 0% 100%,100% 100%, 80% 10%);
+}
+.product-card {
+      width: 250px;
+      position: relative;
+}
+.product-name {
+      margin-top: 15px;
+      margin-right: 0%;
+      margin-bottom: 0%;
+}
+
+.product-category {
+      color: gray;
+      font-size: 14px;
+      margin-left: 0%;
+      margin-top: 3%;
+
+}
+
+.inner-details{
+      display:flex;
+      flex-wrap: nowrap;
+}
+.price {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+      margin-left: 51px;
+}
+
+
+img{
+    height: 250px;
+    width: 230px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    gap: 35px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+
+}
+.abstract{
+    text-align: center;
+    padding-top: 30px;
+}

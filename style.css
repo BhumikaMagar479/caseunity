@@ -68,6 +68,7 @@
 }
 .about h1,h4{
     padding: 10px;
+    
 }
 .demo{
 display: flex;
@@ -136,39 +137,38 @@ input:invalid{
 .my-popular h1 p{
   padding: 200px;
 }
-.popular-container, .popular1-container,.bestselling-container,.bestselling1-container{
+.popular-container, .popular1-container, .bestselling-container, .bestselling1-container{
 
   padding-top: 2rem;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+ 
 
 }
-.popular-card ,.popular1-card, .bestselling-card,.bestselling1-card{ 
+.popular-card, .popular1-card, .bestselling-card, .bestselling1-card{ 
   width: 200px;
   margin: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
   transition: transform 0.6s ease;
   
 }
-.popular-card:hover ,.popular1-card:hover, .bestselling-card:hover,.bestselling1-card:hover{
+.popular-card:hover, .popular1-card:hover, .bestselling-card:hover, .bestselling1-card:hover{
     overflow: hidden;
     cursor: pointer; 
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
-.popular, .popular1, .bestselling{
+.popular, .popular1, .bestselling, .bestselling1{
   display: flex ;
   justify-content: center;
   text-align: center;
 }
-.popular-card img ,.popular1-card img ,.bestselling-card img,.bestselling1-card img{
+.popular-card img, .popular1-card img, .bestselling-card img, .bestselling1-card img{
   height: 260px;
   width: 100%;
-  object-fit: cover;
+ 
  
 }
-.popular-container ,.popular1-container,.bestselling-container,.bestselling1-container{
+.popular-container, .popular1-container, .bestselling-container, .bestselling1-container{
 
   padding-top: 2rem;
   display: flex;

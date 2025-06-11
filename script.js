@@ -21,22 +21,22 @@ const popular= [
   {
     image: "image/abstract.png",
     title: "Phone Cases",
-    description: "ABSTRACT Rs 850 - Rs 1100",
+    description: "ABSTRACT Rs 850 - Rs 1500",
   },
   {
     image: "image/abstract4.png",
     title: "Phone Cases",
-    description: "ABSTRACT Rs 850 - Rs 1100"
+    description: "ABSTRACT Rs 850 - Rs 1500"
   },
  { 
   image: "image/marbel.png",
   title: "Phone Cases",
-  description: "MARBLE Rs 850 - Rs 1100"
+  description: "MARBLE Rs 850 - Rs 1500"
 },
  { 
   image: "image/marbel2.png",
   title: "Phone Cases",
-  description: "MARBLE Rs 850 - Rs 1100"
+  description: "MARBLE Rs 850 - Rs 1500"
 },
 ];
 const popularContainer = document.getElementById("popular-container");
@@ -63,19 +63,19 @@ const popular1=[
  { 
   image: "image/sports.png",
   title: "Phone Cases",
-  description: "SPORTS - Rs 1100",
+  description: "SPORTS Rs 850 - Rs 1500",
 },
 
  { 
   image: "image/luxury.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 
  { 
   image: "image/abstract3.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 ];
 const popular1Container = document.getElementById("popular1-container");
@@ -97,23 +97,23 @@ const bestselling=[
   {
   image: "image/abstract6.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 
  { 
   image: "image/sports1.png",
   title: "Phone Cases",
-  description: "SPORTS - Rs 1100",
+  description: "SPORTS Rs 850 - Rs 1500",
 },
 { 
   image: "image/abstract5.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 { 
   image: "image/abstract8.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 ];
 const bestsellingContainer = document.getElementById("bestselling-container");
@@ -135,23 +135,23 @@ const bestselling1=[
   {
   image: "image/abstract9.png",
   title: "Phone Cases",
-  description: "ABSTRACT Rs 850 - Rs 1100",
+  description: "ABSTRACT Rs 850 - Rs 1500",
 },
 
  { 
   image: "image/sports2.png",
   title: "Phone Cases",
-  description: "SPORTS - Rs 1100",
+  description: "SPORTS - Rs 850 - Rs 1500",
 },
 { 
   image: "image/sports3.png",
   title: "Phone Cases",
-  description: "SPORTS Rs 850 - Rs 1100",
+  description: "SPORTS Rs 850 - Rs 1500",
 },
 { 
   image: "image/sports4.png",
   title: "Phone Cases",
-  description: "SPORTS Rs 850 - Rs 1100",
+  description: "SPORTS Rs 850 - Rs 1500",
 },
 ];
 const bestselling1Container = document.getElementById("bestselling1-container");

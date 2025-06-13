@@ -1,7 +1,5 @@
-body {
-      font-family: Arial, sans-serif;
-      background: #fff;
-      padding: 50px;
+*{
+      margin: 0px;
 }
 .navbar {
     z-index: 10000;
@@ -12,6 +10,7 @@ body {
     top: 0;
     display: flex;
     justify-content: space-between;
+    height: 48px;
 }
 .logo{
     color: white;
@@ -53,6 +52,28 @@ body {
 .navlinks.active{
     display: flex;
 }
+.container1{
+      width: 300px;
+     padding: 40px;
+  
+    
+  
+}
+h2{
+      margin-top: 20px;
+      color: #333;
+}
+.filter-section{
+      margin-bottom: 20px;
+     width: 500px;
+}
+.filter-section label{
+      display: block;
+      margin: 6px 0;
+}
+input[type="checkbox"]{
+      margin-right: 3px;
+}
 .foot {
   text-align: center;
  margin-bottom: 0px;
@@ -69,12 +90,18 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 35px;
+      justify-content:center ;
+      
 }
 
 .product-card {
       width: 250px;
       position: relative;
       background-color: white;
+      
+}
+.Contain{
+      display: flex;
 }
 .ribbon {
       position: absolute;
@@ -130,6 +157,8 @@ body {
 .heading{
      text-align: center;
      margin-bottom: 70px;
+     padding: 30px;
+
 }
 
 

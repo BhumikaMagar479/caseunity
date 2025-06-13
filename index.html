@@ -23,34 +23,47 @@
         </div>
         </div>
         <div class="demo">
-        <div class="case">
-          <img src="./image/phone-case.png" alt="case">
-        </div>
-        <div class="about">
+       
+        <!-- <div class="about"> -->
           <h1>Make your own Custom Phone Cases</h1>
           <hr>
           <h4>Customize your own laptop sleeves, phone cases etc. with your own designs.</h4>
           <hr>
-          <h4>Choose Product!</h4> 
-        <div class="button">
-            <button>Phone Case</button>
-            <button>ATM Card</button>
-            <button>Tablet skin</button> 
-            <button> Laptop Sleeves</button>
-          </div>
-      </div>
-      
-      <form action="form">
-        <label for="brand"> Select Brand*</label>
-     <select id="brand" name="brand" multiple>
-      <option value="apple">apple</option>
-       <option  value="sam">sam</option>
-        <option  value="f">f</option>
-         <option  value="apple">apple</option>
-         </select>
-      </form>
+      <!-- </div> -->
+    <div class="case1">
+          <div class="case">
+          <img src="./image/phone-case.png" alt="case">
+          <h2>Choose Product *</h2>
+  <div class="section button-group" id="productButtons">
+    <div class="button active">Phone Cases</div>
+    <div class="button">ATM Card</div>
+    <div class="button">Laptop Sleeves</div>
+    <div class="button">Tablet Skin</div>
+  </div>
+
+  <h2>Choose Variant *</h2>
+  <div class="section button-group" id="variantButtons">
+    <div class="button active">Normal <div class="price">Rs 750</div></div>
+    <div class="button">Premium <div class="price">Rs 850</div></div>
+  </div>
+
+  <h2>Upload your Image</h2>
+  <div class="section">
+    <label for="upload" class="upload-box">
+      Click to upload
+      <input type="file" id="upload" hidden>
+    </label>
+  </div>
+
+  <h2>Phone Model *</h2>
+  <input type="text" class="input-field" placeholder="Enter phone model...">
+
+    </div>
+     
      </div>
      <!--shop by categories-->
+        </div>
+      
   
 
 

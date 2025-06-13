@@ -51,6 +51,63 @@
 .navlinks.active{
     display: flex;
 }
+ h2 {
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2px;
+    }
+
+    .button {
+      padding: 12px 20px;
+      border: 2px solid #000;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #000;
+      color: white;
+    }
+
+    .button.active {
+      background-color: black;
+      color: white;
+    }
+
+    .upload-box {
+      border: 2px dashed #ccc;
+      padding: 30px;
+      text-align: center;
+      background-color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .input-field {
+      padding: 10px;
+      width: 300px;
+      margin-top: 10px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      display: block;
+    }
+
+    .price {
+      color: gray;
+      font-size: 14px;
+      margin-top: 4px;
+    }
 .image img{
   height: 200px;
   width: 190px;
@@ -72,8 +129,10 @@
 }
 .demo{
 display: flex;
+flex-direction: column;
 
 }
+.case1{}
 .demo button{
   padding:15px;
   background-color:white;
@@ -142,12 +201,11 @@ input:invalid{
   padding-top: 2rem;
   display: flex;
   justify-content: center;
- 
 
 }
 .popular-card, .popular1-card, .bestselling-card, .bestselling1-card{ 
   width: 200px;
-  margin: 5px;
+  margin: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.6s ease;
   
@@ -163,13 +221,10 @@ input:invalid{
   text-align: center;
 }
 .popular-card img, .popular1-card img, .bestselling-card img, .bestselling1-card img{
-  height: 260px;
+  height: 240px;
   width: 100%;
- 
- 
 }
 .popular-container, .popular1-container, .bestselling-container, .bestselling1-container{
-
   padding-top: 2rem;
   display: flex;
   justify-content: center;
@@ -222,14 +277,14 @@ input:invalid{
 }
 .gods-3{
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   padding: 0%;
   
 }
 .gods-4{
   display: flex;
   padding: 0%;
-  gap: 3rem;
+  gap: 1rem;
 }
  .gods_container{
    display: flex;

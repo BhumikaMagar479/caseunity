@@ -168,3 +168,12 @@ bestselling1.forEach(bestselling1=> {
   bestselling1Container.appendChild(card);
 }
 );
+
+ document.querySelectorAll('.button-group').forEach(group => {
+      group.addEventListener('click', e => {
+        if (e.target.classList.contains('button')) {
+          [...group.children].forEach(btn => btn.classList.remove('active'));
+          e.target.classList.add('active');
+        }
+      });
+    });

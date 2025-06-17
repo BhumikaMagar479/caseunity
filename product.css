@@ -10,7 +10,7 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    height: 48px;
+    height: 46px;
 }
 .logo{
     color: white;
@@ -55,9 +55,6 @@
 .container1{
       width: 300px;
      padding: 40px;
-  
-    
-  
 }
 h2{
       margin-top: 20px;

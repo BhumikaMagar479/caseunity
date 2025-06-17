@@ -177,3 +177,53 @@ bestselling1.forEach(bestselling1=> {
         }
       });
     });
+
+
+    const modelSelect = document.getElementById('model');
+    const variantSelect = document.getElementById('variant');
+    const brandSelect = document.getElementById('brand');
+
+    const models = {
+      Apple: ['iPhone 13', 'iPhone 14', 'Macbook Pro'],
+      Samsung: ['Galaxy S22', 'Galaxy Note 20'],
+      Dell: ['XPS 13', 'Inspiron 15']
+    };
+
+    const variants = {
+      'iPhone 13': ['Matte', 'Glossy'],
+      'iPhone 14': ['Glossy', 'Transparent'],
+      'Macbook Pro': ['15-inch', '13-inch'],
+      'Galaxy S22': ['Black', 'White'],
+      'Galaxy Note 20': ['Blue', 'Green'],
+      'XPS 13': ['Touch', 'Non-Touch'],
+      'Inspiron 15': ['Plastic', 'Metal']
+    };
+
+    brandSelect.addEventListener('change', function () {
+      const selectedBrand = this.value;
+      modelSelect.innerHTML = `<option value="">Select Model...</option>`;
+      if (selectedBrand && models[selectedBrand]) {
+        models[selectedBrand].forEach(model => {
+          modelSelect.innerHTML += `<option value="${model}">${model}</option>`;
+        });
+      }
+      variantSelect.innerHTML = `<option value="">Choose Variant...</option>`;
+    });
+
+    modelSelect.addEventListener('change', function () {
+      const selectedModel = this.value;
+      variantSelect.innerHTML = `<option value="">Choose Variant...</option>`;
+      if (selectedModel && variants[selectedModel]) {
+        variants[selectedModel].forEach(variant => {
+          variantSelect.innerHTML += `<option value="${variant}">${variant}</option>`;
+        });
+      }
+    });
+
+    
+    document.querySelectorAll('.category-buttons button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.category-buttons button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });

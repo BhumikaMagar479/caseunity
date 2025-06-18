@@ -227,3 +227,5 @@ bestselling1.forEach(bestselling1=> {
         btn.classList.add('active');
       });
     });
+
+    

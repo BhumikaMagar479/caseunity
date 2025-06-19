@@ -9,7 +9,7 @@
 <body>
   
     <div class="navbar">
-   <div class=logo> <img src="./image/logo1.png" alt=""> </div>
+   <div class=logo> CASEUNITY </div>
         <ul class="navlinks" id="navbar">
             <li>
                 <a href="./index.html">Home</a></li>
@@ -20,19 +20,19 @@
         <div class="home">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="./image/home.png" alt="First slide">
+      <img class="d-block w-100" src="./image/home1.png" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="image/home1.png" alt="Second slide">
+      <img class="d-block w-100" src="image/home2.png" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="image/home2.png" alt="Third slide">
+      <img class="d-block w-100" src="image/home0.png" alt="">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,8 +47,6 @@
       </div>
         
         <div class="demo">
-         <!--<div class="about">-->
-        
     <div class="case">
           <img src="./image/phone-case.png" alt="case">
          
@@ -58,11 +56,13 @@
           <h4>Customize your own laptop sleeves, phone cases etc. with your own designs.</h4>
           <hr>
           <h4>Choose Product *</h4>
-    <div class="category-buttons">
-    <button class="active">Phone Cases</button>
+          
+    <div class="btn" id="category-buttons">
+    <button >Phone Cases</button>
     <button>ATM Card</button>
-    <button>Laptop Sleeves</button>
-    <button>Tablet Skin</button>
+    <button >Laptop Sleeves</button>
+    <button >Tablet Skin</button>
+
   </div>
 
    <div class="form-group">
@@ -71,7 +71,12 @@
       <option value="">Select Brand...</option>
       <option value="Apple">Apple</option>
       <option value="Samsung">Samsung</option>
-      <option value=""></option>
+      <option value="Huwaei">Huwaei</option>
+      <option value="OnePlus">Oneplus</option>
+      <option value="Oppo">Oppo</option>
+      <option value="Realme">Realme</option>
+      <option value="Redmi">Redmi</option>
+      <option value="Vivo">Vivo</option>
     </select>
   </div>
 
@@ -90,7 +95,7 @@
   </div>
 
   <div class="form-group">
-    <label>Upload your Image</label>
+    <label>Upload your Image *</label>
     <div class="upload-box" onclick="document.getElementById('image-upload').click();">
       Click to upload
       <input type="file" id="image-upload" accept="image/*" style="display: none;" />

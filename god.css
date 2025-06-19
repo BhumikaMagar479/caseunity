@@ -108,7 +108,7 @@
 .product-card:hover{
     cursor: pointer;
     transform: scale(1.1);
-    transition:all 0.4s ease;
+    transition:all 1.0s ease;
 
 }
 
@@ -136,6 +136,7 @@
 img{
     height: 250px;
     width: 230px;
+      transition:all 1.0s ease;
 }
 .container{
     display: flex;

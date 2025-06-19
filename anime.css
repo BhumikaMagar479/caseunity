@@ -101,7 +101,7 @@
 .product-card:hover{
     cursor: pointer;
     transform: scale(1.1);
-    transition:all 0.4s ease;
+    transition:all 1.0s ease;
 }
 .product-name {
       margin-top: 15px;

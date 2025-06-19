@@ -184,9 +184,14 @@ bestselling1.forEach(bestselling1=> {
     const brandSelect = document.getElementById('brand');
 
     const models = {
-      Apple: ['iPhone 13', 'iPhone 14', 'Macbook Pro'],
-      Samsung: ['Galaxy S22', 'Galaxy Note 20'],
-      Dell: ['XPS 13', 'Inspiron 15']
+      Apple: ['iphone 11','iphone 12','iphone 13 ','iphone 14','iphone 15','iPhone 16','iphone 6/6s','iphone 7','iphone 8','iphone 7plus/8plus','iphone 11 pro'],
+
+      Samsung: ['samsung a02s/mo2s','samsung a03s','samsung 10','samsung a10s/mo10','samsung a14','samsung 16','samsung a20/a30','samsung a22 5g/f22 5g','samsung a70/a70s'],
+      Huwaei: ['huwaei nova 4','huawei y5 2019','huawei y6 2019','huawei honor 10 lite','huawei nova 2l','huawei nova 3e','huwaei p30 pro','huwaei y9s'],
+      OnePlus: ['onplus 10 pro','onplus 11 r','oneplus 12','oneplus 12 r',' oneplus 5','oneplus 5t','oneplus 6t/7','oneplus 7 pro','oneplus 7t','oneplus 8','oneplus 8 pro','oneplus 9','oneplus nord']
+    
+    
+    
     };
 
     const variants = {
@@ -229,3 +234,6 @@ bestselling1.forEach(bestselling1=> {
     });
 
     
+const categorybuttons = document.querySelectorAll("#categorybuttons button");
+const card1 = document.querySelectorAll("#item-container .card1");
+

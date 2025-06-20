@@ -10,20 +10,25 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    height: 46px;
+    font-size: xx-large;
+}
+.logo img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
 }
 .logo{
-    color: white;
-    font-size: x-large;
-    margin-left: 40px;
- 
+  color: white;
+
 }
 .navbar ul{
     list-style: none;
     display: flex;
     flex-direction: row; 
-    font-size: x-large;
-    margin-right: 50px;
+    font-size:x-large;
+    margin-right: 100px;
+   
 }
 .navbar ul li{
     height: 25px;
@@ -76,7 +81,7 @@ input[type="checkbox"]{
  margin-bottom: 0px;
  background-color:#2c3e50;
  justify-content: space-between;
- padding:  20px;
+ padding:  80px;
  color:white;
  display: flex;
 }
@@ -157,5 +162,10 @@ input[type="checkbox"]{
      padding: 30px;
 
 }
-
-
+.h1{
+      font-size:270%;
+}
+.p{
+      padding: 10px;
+      font-size: 16px;
+}

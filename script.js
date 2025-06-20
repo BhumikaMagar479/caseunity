@@ -184,13 +184,15 @@ bestselling1.forEach(bestselling1=> {
     const brandSelect = document.getElementById('brand');
 
     const models = {
-      Apple: ['iphone 11','iphone 12','iphone 13 ','iphone 14','iphone 15','iPhone 16','iphone 6/6s','iphone 7','iphone 8','iphone 7plus/8plus','iphone 11 pro'],
+      Apple: ['IPHONE 11','IPHONE 12','IPHONE 13 ','IPHONE 14','IPHONE 15','IPHONE 16','IPHONE 6/6s','IPHONE 7','IPHONE 8','IPHONE 7plus/8plus','IPHONE 11 pro'],
 
-      Samsung: ['samsung a02s/mo2s','samsung a03s','samsung 10','samsung a10s/mo10','samsung a14','samsung 16','samsung a20/a30','samsung a22 5g/f22 5g','samsung a70/a70s'],
-      Huwaei: ['huwaei nova 4','huawei y5 2019','huawei y6 2019','huawei honor 10 lite','huawei nova 2l','huawei nova 3e','huwaei p30 pro','huwaei y9s'],
-      OnePlus: ['onplus 10 pro','onplus 11 r','oneplus 12','oneplus 12 r',' oneplus 5','oneplus 5t','oneplus 6t/7','oneplus 7 pro','oneplus 7t','oneplus 8','oneplus 8 pro','oneplus 9','oneplus nord']
-    
-    
+      Samsung: ['SAMSUNG a02s/mo2s','SAMSUNG a03s','SAMSUNG 10','SAMSUNGa10s/mo10','SAMSUNG a14','SAMSUNG 16','SAMSUNG a20/a30','SAMSUNG a22 5g/f22 5g','SAMSUNG a70/a70s'],
+      Huwaei: ['HUAWEI nova 4','HUAWEI y5 2019','HUAWEI y6 2019','HUAWEI honor 10 lite',' nova 2l','HUAWEI nova 3e','HUAWEI p30 pro','HUAWEI y9s'],
+      OnePlus: ['ONEPLUS 10 PRO','ONEPLUS 11 R','ONEPLUS 12','ONEPLUS 12 R','ONEPLUS 5','ONEPLUS 5T','ONEPLUS 6T/7','ONEPLUS 7 PRO','ONEPLUS 7T','ONEPLUS 8','ONEPLUS 8 PRO','ONEPLUS 9','ONEPLUS NORD'],
+      Oppo: ['OPPO 15/F14 PRO','OPPO A15','OPPO A1K','OPPO A31','OPPO F3','OPPO F7','OPPO F9 PRO/F9','OPPO RENO 6','OPPO A83','OPPO A59/F1S'],
+      Realme: ['REALME X','REALME XT','REALME NARXO 50 5G','REALME C3','REALME C31','REALME C35','REALME C2','REALME C20','REALME C21','REALME 91',' REALME 9 PRO','REALME 9 PRO PLUS','REALME 3/31',' REALME 5 PRO',' REALME 5/51/5S','REALME 6 PRO',' REALME 6/61' ,' REALME 7 ','REALME 7 PRO'],
+      Redmi: ['REDMI 10 2022',' REDMI 10 PRIME','REDMI 10PRO/MAX','REDMI 7A','REDMI 8','REDMI PRO','REDMI 8A DUAL','REDMI 9C/9 IMDIAN','REDMI C3','REDMI 10/10S','REDMI NOTE 11/PRO','REDMI POCO M4 PRO','REDMI X3'],
+      Vivo: ['VIVO Y9S/S1 PRO','VIVO Y73/V21E','VIVO Y55','VIVO Y53S','VIVO Y1S','VIVO V7','VIVO V23 E','VIVO 11/PRO','VIVO 17/PRO'],
     
     };
 
@@ -234,6 +236,31 @@ bestselling1.forEach(bestselling1=> {
     });
 
     
-const categorybuttons = document.querySelectorAll("#categorybuttons button");
-const card1 = document.querySelectorAll("#item-container .card1");
 
+
+let currentIndex = 0;
+const slides = document.getElementsByClassName("slide");
+
+// Show the first slide
+showSlide(currentIndex);
+
+// Function to show a specific slide
+function showSlide(index) {
+  // Loop back if out of bounds
+  if (index >= slides.length) currentIndex = 0;
+  else if (index < 0) currentIndex = slides.length -1;
+  else currentIndex = index;
+
+  // Hide all slides
+  for (let slide of slides) {
+    slide.style.display = "none";
+  }
+
+  // Show the current slide
+  slides[currentIndex].style.display = "block";
+}
+
+// Function to change slide on button click
+function changeSlide(step) {
+  showSlide(currentIndex + step);
+}

@@ -65,21 +65,21 @@ h2 {
   width: 600px;
   height: 600px;
 }
-.about {
-  margin-bottom: 40%;
- justify-content: center;
-  margin-right: 20px;
-  margin-top: 20px;
-
-}
-.about h1,h4{
-    padding: 15px;
-    font-size: 18px;
-
-}    
 .case{
   display: flex;
   gap: 3rem;
+}
+.case1 {
+ justify-content: center;
+  margin-top: 50px;
+
+}
+.case1 h4{
+    padding: 15px;
+    font-size: 18px;
+}    
+.case1{
+  margin-right: 80px;
 }
 
  .category-buttons {
@@ -228,6 +228,26 @@ flex-direction: column;
 .h-1 h1{
    font-size: 3rem;
 }
+.shop, h1{
+    text-align: center;
+    padding: 3px;
+  
+}
+.shop p{
+  color: #4d4c4c;
+  padding: 10px;
+  font-size: 110%;  
+}
+.my-popular p{
+  color: #4d4c4c;
+  padding: 10px;
+  font-size: 110%;
+}
+.bestproducts p{
+  color: #4d4c4c;
+  padding: 10px;
+  font-size: 110%;
+}
 .god{
   position: absolute;
   top: 100%;
@@ -266,12 +286,6 @@ flex-direction: column;
    gap: 5.5rem;
    
  }
-.shop, h1{
-    text-align: center;
-    padding: 3px;
-  
-}
-
 
 * { box-sizing: border-box; }
     .slider {

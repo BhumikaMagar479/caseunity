@@ -1,0 +1,122 @@
+*{
+  
+     margin: 0;
+    padding: 0;
+  
+}
+.navbar {
+    z-index: 10000;
+    padding: 30px;
+    margin: 0;
+    background-color: #2c3e50;
+    position:relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+}
+.logo img{
+   
+    border-radius: 100%;
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
+}
+.logo{
+  color: white;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    font-size:x-large;
+    margin-right: 100px;
+   
+}
+.navbar ul li{
+    height: 25px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.navbar a::after{
+    content:"" ;
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: orange;
+    margin-top: 3px;
+    transition: 0.2s;
+}
+.navbar a:hover::after{
+     width: 100%;
+}
+.navlinks.active{
+    display: flex;
+}
+  
+    .track-container {
+      padding: 65px;
+      max-width: 500px;
+      margin: auto;
+    }
+    .track-container h2 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 45px;
+      
+    }
+    .track-container p {
+      color: #555;
+      margin-bottom: 30px;
+       text-align: center;
+       font-size: 18px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .trackform{
+        width: 60%;
+        height: 60%;
+    }
+    .btn {
+      width: 105%;
+      padding: 12px;
+      background-color: #111;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    
+    }
+    .btn:hover {
+      background-color: #333;
+    }
+    .icon {
+      margin-right: 8px;
+    }
+.foot {
+   text-align: center;
+   margin-bottom: 0px;
+   background-color:#2c3e50;
+   justify-content: space-between;
+   padding:  80px;
+   color:white;
+   display: flex;
+}
+.foot h1{
+    text-align: left;
+}

@@ -69,6 +69,7 @@
             margin: 20px 40px;
             color: #555;
             font-size:large;
+          
         }
         .breadcrumb span {
             margin: 0 5px;
@@ -96,13 +97,13 @@
         }
         .product-small{
              flex: 1;
-              
         }
         .product-small img{
             width: 40%;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
             border: solid 2px black;
+            
            
         }
         .product-details {
@@ -170,8 +171,9 @@
       margin-bottom: 10px;
     }
 
-    .product-info {
+    .product-info p {
       margin-bottom: 20px;
+      
     }
 
     .label {

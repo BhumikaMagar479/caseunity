@@ -56,25 +56,16 @@
  margin-bottom: 0px;
  background-color:black;
  justify-content: space-between;
- padding:  20px;
+ padding:  80px;
  color:white;
-
+ display: flex;
 }
-.logo-f{
-    gap: 10rem;
+.foot h1{
+    text-align: left;
 }
-.f-head{
-    display: flex;
-    gap: 2rem;
-}
-.f-tail{
-     padding-top: 50px;
-     padding-bottom: 0%;
-}
-
-.use{
-    text-align: right;
-    float: right;
+.use a{
+   color: white;
+   text-decoration: none;
 }
 .Reserved{
     margin-bottom: 50px;

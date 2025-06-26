@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>caseunity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./product.css">
 </head>
 <body>
@@ -15,6 +16,13 @@
             <li><a href="./product.html">Product</a></li>
             <li> <a href="#place order">Place order</a></li>
         </ul>
+        <div class="search ">
+                  <button type="button">
+                    <img src="./image/search logo.png" alt="search">
+               </button>
+
+            </form>
+        </div>
         </div>
       
     <div class="heading">
@@ -28,19 +36,21 @@
                 <hr>
             <h2>Product Type</h2>
             <div class="filter-section">
-                <label><input type="checkbox"> Phone Cases</label>
-                <label><input type="checkbox"> Atm Skin</label>
-                <label><input type="checkbox">Tablet Cases</label>
-                <label><input type="checkbox"> Laptop Sleeves</label>
+                 <label><input type="checkbox" class="active" data-filter="All"> All</label>
+                <label><input type="checkbox" data-filter="Phone Cases"> Phone Cases</label>
+                <label><input type="checkbox" data-filter="Atm Skin"> Atm Skin</label>
+                <label><input type="checkbox" data-filter="Laptop Sleeves">  Laptop Sleeves</label>
+                 <label><input type="checkbox" data-filter="Tablet Skin"> Tablet Skin</label>
             </div>
             <h2>Category</h2>
             <div class="filter-section">
-                <label><input type="checkbox">GOD</label>
-                 <label><input type="checkbox">SPORTS</label>
-                  <label><input type="checkbox">MARBLE</label>
-                   <label><input type="checkbox">LUXURY</label>
-                    <label><input type="checkbox">ANIME</label>
-                     <label><input type="checkbox">ABSTRACT</label>
+                <label><input type="checkbox" class="active" data-filter="All"> All</label>
+                <label><input type="checkbox" data-filter="GOD">GOD</label>
+                 <label><input type="checkbox" data-filter="SPORTS">SPORTS</label>
+                  <label><input type="checkbox" data-filter="MARBLE">MARBLE</label>
+                   <label><input type="checkbox" data-filter="LUXURY">LUXURY</label>
+                    <label><input type="checkbox" data-filter="ANIME">ANIME</label>
+                     <label><input type="checkbox" data-filter="ABSTRACT">ABSTRACT</label>
             </div>
         </div>
     <div class="container">

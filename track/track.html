@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wraps Nepal Checkout</title>
+  <link rel="stylesheet" href="./track.css" >
+</head>
+<body>
+  <div class="navbar">
+   <div class=logo><img src="./image/logo2.png" alt=""> CASEUNITY </div>
+        <ul class="navlinks" id="navbar">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./product.html">Product</a>
+            </li>
+            <li> 
+              <a href="./track/track.html">Place order</a>
+            </li>
+        </ul>
+  
+      
+        <div class="hamburger" id="hamburger" > 
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+</div>
+
+  <main class="container">
+       <section class="payment">
+      <h2>Payment Method</h2>
+      <div class="methods">
+        <button><div> <img src="./esewa.png" alt=""></div>E-sewa</button>
+        <button> <div><img src="./khalti.png" alt=""></div>Khalti</button>
+        <button> <div><img src="./ime pay.png" alt=""></div>IME Pay</button>
+        <button> <div><img src="./siddhat.png" alt=""></div>Siddartha bank</button>
+        <button> <div><img src="./download.png" alt=""></div>Cash On Delivery</button>
+        <p>Initial payment of 300 must be done</p>
+      </div>
+    </section>
+
+    <section class="shipping">
+      <h2>Shipping Details</h2>
+      <p class="p">Complete your order by providing your shipping details.</p>
+      <form id="checkoutForm">
+        <b><label>Full Name*</label></b>
+        <input type="tel" required  placeholder="John Doe"/>
+        <strong><label>Phone Number* </label></strong>
+        <input type="number" required>
+        <strong><label>Alternate Phone </label></strong>
+        <input type="tel" />
+        <strong><label>District / City*</label></strong>
+          <select required>
+            <option value="">Select...</option>
+            <option>Bhaktapur</option>
+            <option>Kathmandu</option>
+            <option>Lalitpur</option>
+          </select>
+        
+        <strong><label>Address *</label></strong>
+        <input type="text" required />
+        <strong><label>Landmark </label></strong>
+        <input type="text" />
+        <button type="submit" class="placeorder">Place Order</button>
+      </form>
+    </section>
+
+
+  </main>
+ <footer class="foot">
+        <h1>CASEUNITY</h1>
+        <div class="use">
+        <h3>USEFUl LINKS</h3>
+         <a href="./product.html"><p>Products</p></a>
+        <a href="./order.html"><p>Place order</p></a> 
+        </div>
+        <div class="social">
+        <h3>SOCIAL MEDIA</h3>
+         <p>Instagram</p>
+         <p>whatsApp</p>
+         </div>
+       <div class="contact">
+       <h3> CONTACT US</h3>
+         <p>caseunity69@gmail.com</p>
+         <p>Chakrapath,Kathmandu</p>
+       </div>
+     <hr>
+        <div>© 2025 Caseunity.np</a>. All Rights Reserved.</div>
+</footer>
+  <script src="track.js"></script>
+</body>
+</html>

@@ -17,11 +17,16 @@ filterButtons.forEach(button =>{
         });
     });
 });
+
+
+
+
 const popular= [
   {
     image: "image/abstract.png",
     title: "Phone Cases",
     description: "ABSTRACT Rs 850 - Rs 1500",
+    
   },
   {
     image: "image/abstract4.png",

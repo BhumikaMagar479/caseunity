@@ -5,7 +5,7 @@
     z-index: 10000;
     padding: 30px;
     margin: 0;
-    background-color: #2c3e50;
+    background-color:black;
     position:relative;
     top: 0;
     display: flex;
@@ -73,6 +73,10 @@
         .breadcrumb span {
             margin: 0 5px;
         }
+        .breadcrumb a{
+          text-decoration: none;
+          color: #555;
+        }
 
         /* Product Section */
         .container {
@@ -96,13 +100,13 @@
         }
         .product-small{
              flex: 1;
-              
         }
         .product-small img{
             width: 40%;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
             border: solid 2px black;
+            
            
         }
         .product-details {
@@ -170,8 +174,9 @@
       margin-bottom: 10px;
     }
 
-    .product-info {
+    .product-info p {
       margin-bottom: 20px;
+      
     }
 
     .label {

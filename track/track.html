@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wraps Nepal Checkout</title>
+  <link rel="stylesheet" href="./track.css" >
+</head>
+<body>
+  <main class="container">
+       <section class="payment">
+      <h2>Payment Method</h2>
+      <div class="methods">
+        <button><div> <img src="./esewa.png" alt=""></div>E-sewa</button>
+        <button> <div><img src="./khalti.png" alt=""></div>Khalti</button>
+        <button> <div><img src="./ime pay.png" alt=""></div>IME Pay</button>
+        <button> <div><img src="./siddhat.png" alt=""></div>Siddartha bank</button>
+        <button> <div><img src="./download.png" alt=""></div>Cash On Delivery</button>
+        <p>Initial payment of 300 must be done</p>
+      </div>
+    </section>
+
+    <section class="shipping">
+      <h2>Shipping Details</h2>
+      <p class="p">Complete your order by providing your shipping details.</p>
+      <form id="checkoutForm">
+        <b><label>Full Name*</label></b>
+        <input type="tel" required  placeholder="John Doe"/>
+        <strong><label>Phone Number* </label></strong>
+        <input type="number" required>
+        <strong><label>Alternate Phone </label></strong>
+        <input type="tel" />
+        <strong><label>District / City*</label></strong>
+          <select required>
+            <option value="">Select...</option>
+            <option>Bhaktapur</option>
+            <option>Kathmandu</option>
+            <option>Lalitpur</option>
+          </select>
+        
+        <strong><label>Address *</label></strong>
+        <input type="text" required />
+        <strong><label>Landmark </label></strong>
+        <input type="text" />
+        <button type="submit" class="placeorder">Place Order</button>
+      </form>
+    </section>
+
+
+  </main>
+  <div class="foot">
+<div class="USEFUL">
+  <h2>USEFUL LINKS</h2>
+  <a href="">Products</a>
+  <a href="">Track Order</a>
+</div>
+  <div class="SOCIAL">
+    <h2>SOCIAL MEDIA</h2>
+  <a href="">Instragram</a>
+  <a href="">TikTok</a>
+  <a href="">Thread</a>
+  <a href="">WhataApp</a></div>
+ <div class="CONTACT"> 
+  <h2>CONTACT US</h2>
+  <a href="">wraps.nepal@gmail.com</a>
+  <a href="">Tinkune,Kathmandu</a></div>
+  </div>
+  <script src="track.js"></script>
+</body>
+</html>

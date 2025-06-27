@@ -205,6 +205,7 @@ bestselling1.forEach(bestselling1=> {
     const variants = {
       'IPHONE 11': ['NORMAL', 'FULL COVERAGE'],
       'IPHONE 12': ['NORMAL', 'FULL COVERAGE','DOUBLE LAYER'],
+       'IPHONE 13': ['NORMAL', 'FULL COVERAGE','DOUBLE LAYER'],
       'IPHONE 14': ['NORMAL', 'BLACK GLOSSY','DOUBLE LAYER'],
       'IPHONE 15': ['NORMAL', 'BLACK GLOSSY','DOUBLE LAYER'],
       'SAMSUNG A03S': ['NORMAL','BLACK GLOSSY'],

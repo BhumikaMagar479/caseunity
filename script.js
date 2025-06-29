@@ -1,23 +1,58 @@
 
-const filterButtons = document.querySelectorAll("#filter-buttons button");
-const card = document.querySelectorAll("#item-container .card");
+const hamburger=document.getElementById('hamburger');
+const navlinks=document.getElementById('navlinks');
 
-filterButtons.forEach(button =>{
-    button.addEventListener("click",() =>{
-        filterButtons.forEach(btn => btn.classList.remove("active"));
-        button.classList.add("active");
-        const filter = button.getAttribute("data-filter");
-        card.forEach(card => {
-            const category = card.getAttribute("data-category");
-            if(filter ==="all" || category === filter){
-                card.style.display ="block";
-            }else{
-                card.style.display ="none";
-            }
-        });
-    });
+hamburger.addEventListener ('click' ,()=>{
+    navlinks.classList.toggle('active');
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const productDetails = {
+    "Phone Cases": {
+      img: "./image/phone-case.png",
+      desc: "High-quality phone cases with stylish designs and protective build."
+    },
+    "Atm Skin": {
+      img: "./image/atm.png",
+      desc: "Custom ATM machine skins with a unique finish."
+    },
+    "Tablet SKin": {
+      img: "./image/marbel8.png",
+      desc: "Premium skins to protect and personalize your tablet."
+    },
+    "Laptop Sleeves": {
+      img: "./image/luxury1.png",
+      desc: "Soft yet durable laptop sleeves in various styles."
+    }
+  };
+
+  const previewImg = document.getElementById("product-preview");
+  const description = document.getElementById("product-description");
+
+  // Product button click handling
+  document.querySelectorAll("#category-buttons button").forEach(button => {
+    button.addEventListener("click", () => {
+      const key = button.textContent.trim();
+      if (productDetails[key]) {
+        previewImg.src = productDetails[key].img;
+        description.textContent = productDetails[key].desc;
+      }
+    });
+  });
+
+  // Image upload preview
+  document.getElementById("image-upload").addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    if (file && file.type.startsWith("image/")) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        previewImg.src = e.target.result;
+        description.textContent = "You have uploaded your own custom image!";
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+});
 
 
 

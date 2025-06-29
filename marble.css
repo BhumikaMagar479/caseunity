@@ -3,7 +3,7 @@
 }
 .navbar {
     z-index: 10000;
-    padding: 30px;
+   font-size: xx-large;
     margin: 0;
     background-color:black;
     position:relative;
@@ -11,18 +11,24 @@
     display: flex;
     justify-content: space-between;
 }
-.logo{
-    color: white;
-    font-size: x-large;
-    margin-left: 40px;
- 
+.logo img{
+  
+    border-radius: 100%;
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
 }
+
 .navbar ul{
     list-style: none;
     display: flex;
     flex-direction: row; 
     font-size: x-large;
-    margin-right: 50px;
+   margin-top: 40px;
+  margin-right:19.0%;
 }
 .navbar ul li{
     height: 25px;
@@ -60,8 +66,13 @@
  color:white;
  display: flex;
 }
-.foot h1{
-    text-align: left;
+.foot img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    
+   
 }
 .use a{
    color: white;

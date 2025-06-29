@@ -47,65 +47,73 @@
      
         
         <div class="demo">
-    <div class="case">
-          <img src="./image/phone-case.png" alt="case">
-         
-          <div class="case1">
-          <h1>Make your own Custom Phone Cases</h1>
-          <hr>
-          <h4>Customize your own laptop sleeves, phone cases etc. with your own designs.</h4>
-          <hr>
-          <h3>Choose Product *</h3>
-          
-    <div class="btn" id="category-buttons">
-    <a href="./index.html#demo"><button >Phone Cases</button></a>
-    <a href="./index.html#demo"><button>ATM Card</button></a>
-    <a href=""><button >Laptop Sleeves</button></a>
-    <a href=""><button >Tablet Skin</button></a>
+  <div class="case">
 
-  </div>
+    <!-- Main Preview Image -->
+    <img alt="case" id="product-preview" src="./image/phone-case.png" />
 
-   <div class="form-group">
-    <label for="brand">Select Brand *</label>
-    <select id="brand">
-      <option value="">Select Brand...</option>
-      <option value="Apple">APPLE</option>
-      <option value="Samsung"> SAMSUNG</option>
-      <option value="Huwaei">HUWAEI</option>
-      <option value="OnePlus">ONEPLUS</option>
-      <option value="Oppo">OPPO</option>
-      <option value="Realme">REALME</option>
-      <option value="Redmi">REDMI</option>
-      <option value="Vivo">VIVO</option>
-    </select>
-  </div>
+    <div class="case1">
+      <h1>Make your own Custom Phone Cases/ATM Skin/Laptop sleeves/Tablet Skin</h1>
+      <hr />
+      <h4>Customize your own laptop sleeves, phone cases etc. with your own designs.</h4>
+      <hr />
 
-  <div class="form-group">
-    <label for="model">Select Model *</label>
-    <select id="model">
-      <option value="">Select Model...</option>
-    </select>
-  </div>
+      <h3>Choose Product *</h3>
+      <div class="btn" id="category-buttons">
+        <button>Phone Cases</button>
+        <button>Atm Skin</button>
+        <button>Tablet SKin</button>
+        <button>Laptop Sleeves</button>
+      </div>
 
-  <div class="form-group">
-    <label for="variant">Choose Variant *</label>
-    <select id="variant">
-      <option value="">Choose Variant...</option>
-    </select>
-  </div>
+      <div class="details">
+        <div class="form-group">
+          <label for="brand">Select Brand *</label>
+          <select id="brand">
+            <option value="">Select Brand...</option>
+            <option value="Apple">APPLE</option>
+            <option value="Samsung">SAMSUNG</option>
+            <option value="Huwaei">HUWAEI</option>
+            <option value="OnePlus">ONEPLUS</option>
+            <option value="Oppo">OPPO</option>
+            <option value="Realme">REALME</option>
+            <option value="Redmi">REDMI</option>
+            <option value="Vivo">VIVO</option>
+          </select>
+        </div>
 
-  <div class="form-group">
-    <label>Upload your Image *</label>
-    <div class="upload-box" onclick="document.getElementById('image-upload').click();">
-      Click to upload
-      <input type="file" id="image-upload" accept="image/*" style="display: none;" />
+        <div class="form-group">
+          <label for="model">Select Model *</label>
+          <select id="model">
+            <option value="">Select Model...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="variant">Choose Variant *</label>
+          <select id="variant">
+            <option value="">Choose Variant...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Upload your Image *</label>
+          <div class="upload-box" onclick="document.getElementById('image-upload').click();">
+            Click to upload
+            <input accept="image/*" id="image-upload" style="display: none;" type="file" />
+          </div>
+        </div>
+
+        <p id="product-description">Please select a product above to see product info.</p>
+
+        <a href="./track.html"><button class="submit-btn">Order Now</button></a>
+      </div>
     </div>
   </div>
+</div>
 
-  <a href="./track.html"><button class="submit-btn">Order Now</button></a>
-          </div>
-     </div>
-     </div>   
+<script src="./js/product.js"></script>
+       
 
        <!--shop by categories-->
       <div class="shop">

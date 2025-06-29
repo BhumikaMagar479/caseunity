@@ -3,7 +3,6 @@
 }
 .navbar {
     z-index: 10000;
-   
     margin: 0;
     background-color: black;
     position:relative;
@@ -13,23 +12,23 @@
     font-size: xx-large;
 }
 .logo img{
-  background-color: white;
+  
     border-radius: 100%;
     object-fit: cover;
     width: 105px;
     height: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
 }
-.logo{
-  color: white;
 
-}
 .navbar ul{
     list-style: none;
     display: flex;
     flex-direction: row; 
     font-size:x-large;
   margin-top: 40px;
-  margin-left: 500px;
+  padding-left:30%
    
 }
 .navbar ul li{
@@ -79,8 +78,8 @@ form {
 }
 .placeorder{
   margin: auto;
-  width: 500px;
-  height: 75px;
+  width: 98%;
+  height: 65px;
 }
 label {
   margin-bottom: 10px;
@@ -135,8 +134,13 @@ button{
  color:white;
  display: flex;
 }
-.foot h1{
-    text-align: left;
+.foot img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    
+   
 }
 .use a{
    color: white;

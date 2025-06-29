@@ -1,11 +1,11 @@
- *{
+*{
   margin: 0;
 }
 .navbar {
     z-index: 10000;
-    padding: 30px;
+   
     margin: 0;
-    background-color:black;
+    background-color: black;
     position:relative;
     top: 0;
     display: flex;
@@ -13,22 +13,23 @@
     font-size: xx-large;
 }
 .logo img{
-   
+
     border-radius: 100%;
     object-fit: cover;
     width: 105px;
     height: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
 }
-.logo{
-  color: white;
 
-}
 .navbar ul{
     list-style: none;
     display: flex;
     flex-direction: row; 
     font-size:x-large;
-    margin-right: 100px;
+    margin-top: 40px;
+  margin-right:19.0%;
    
 }
 .navbar ul li{
@@ -57,8 +58,8 @@
 }
 .navlinks.active{
     display: flex;
-    
 }
+
  
  
  

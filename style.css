@@ -71,6 +71,9 @@ h2 {
   display: flex;
   gap: 3rem;
 }
+@media screen {
+  
+}
 .case1 {
  justify-content: center;
   margin-top: 50px;
@@ -186,48 +189,69 @@ width: 100%;
     color: white;
    
 }
-.my-popular h1 p{
-  padding: 200px;
+.container{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 35px;
+      justify-content:center ;
+      padding-bottom: 5%;
+      
 }
-.popular-container, .popular1-container,.bestselling-container,.bestselling1-container{
 
-  padding-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 7rem;
-
-}
-.popular-card ,.popular1-card, .bestselling-card, .bestselling1-card{ 
-  width:100%;
-  margin: 30px;
+.product-card {
+    width: 22%;
+      position: relative;
+      background-color: white;
+     
+  border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  transition: transform 0.6s ease;
-  border-radius: 10px;
+}
+
+.phone-case {
+      width:100%;
+}
+.phone-case:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+       transition:all 1.0s ease;
+}
+
+
+.product-category {
+      color: gray;
+      font-size: 14px;
+      text-align: center;
+
+
+}
+.product-name{
+  font-size: larger;
+  font-weight: bolder;
+}
+.inner-details{
+      text-align: center;
+}
+
+.price {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+    
+}
+.h-1 p{
+  color: #4d4c4c;
+  padding: 10px;
+  text-align: center;
+  font-size:larger;
   
 }
-.popular-card:hover ,.popular1-card:hover, .bestselling-card:hover,.bestselling1-card:hover{
-    overflow: hidden;
-    cursor: pointer; 
-     transform: translateY(-20px);
+.my-popular,.bestproducts{
+  padding-top: 5%;
 }
-.popular, .popular1, .bestselling, .bestselling1{
-  display: flex ;
-  justify-content: center;
-  text-align: center;
-}
-.popular-card img ,.popular1-card img ,.bestselling-card img,.bestselling1-card img{
-  height: 260px;
-  width: 100%;
-  object-fit: cover;
- 
-}
-.popular-container ,.popular1-container,.bestselling-container,.bestselling1-container{
-
-  padding-top: 2rem;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+.bestproducts p{
+  color: #4d4c4c;
+  padding: 10px;
 
 }
 .foot {
@@ -238,7 +262,9 @@ width: 100%;
  padding:  80px;
  color:white;
  display: flex;
+
 }
+
 .foot img{
     border-radius: 100%;
     object-fit: cover;
@@ -268,16 +294,7 @@ width: 100%;
   padding: 10px;
   font-size: 110%;  
 }
-.my-popular p{
-  color: #4d4c4c;
-  padding: 10px;
-  font-size: 110%;
-}
-.bestproducts p{
-  color: #4d4c4c;
-  padding: 10px;
-  font-size: 110%;
-}
+
 .god{
   position: absolute;
   top: 100%;

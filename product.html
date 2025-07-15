@@ -32,35 +32,26 @@
                 <h1>Filters</h1>
                 <hr>
             <h2>Product Type</h2>
-            <div class="filter-section">
-                 <label><input type="checkbox" class="active" data-filter="All"> All</label>
-                <label><input type="checkbox" data-filter="Phone Cases"> Phone Cases</label>
-                <label><input type="checkbox" data-filter="Atm Skin"> Atm Skin</label>
-                <label><input type="checkbox" data-filter="Laptop Sleeves">  Laptop Sleeves</label>
-                 <label><input type="checkbox" data-filter="Tablet Skin"> Tablet Skin</label>
+            <div class="btn" id="filter-buttons">
+               
+                <button class="active" id="a" data-filter="Phone Cases"> Phone Cases</button><br>
+                <button id ="a" data-filter="Atm Skin"> Atm Skin</button><br>
+                <button id ="a"  data-filter="Laptop Sleeves">  Laptop Sleeves</button><br>
+                <button id ="a" data-filter="Tablet Skin">Tablet Skin</button><br>
             </div>
-            <h2>Category</h2>
-            <div class="filter-section">
-                <label><input type="checkbox" class="active" data-filter="All"> All</label>
-                <label><input type="checkbox" data-filter="GOD">GOD</label>
-                 <label><input type="checkbox" data-filter="SPORTS">SPORTS</label>
-                  <label><input type="checkbox" data-filter="MARBLE">MARBLE</label>
-                   <label><input type="checkbox" data-filter="LUXURY">LUXURY</label>
-                    <label><input type="checkbox" data-filter="ANIME">ANIME</label>
-                     <label><input type="checkbox" data-filter="ABSTRACT">ABSTRACT</label>
-            </div>
+            
         </div>
-    <div class="container">
-        <div class="product-card">
+    <div class="container" id="container">
+        <div class="product-card" >
              <div class="ribbon">New</div>
-           <a href="./formM.html"> <img src="./image/marbel.png" alt="ab" class="phone-case"></a>
+            <img src="./image/marbel.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">MARBLE</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" >
              <div class="ribbon">New</div>
             <img src="./image/abstract.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -71,15 +62,16 @@
         </div>
         
         <div class="product-card">
+        
              <div class="ribbon">New</div>
-          <a href="./formg.html"><img src="./image/god.png" alt="ab" class="phone-case"></a> 
+          <img src="./image/god.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">GOD</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <a href="./forml.html"><img src="./image/luxury.png" alt="ab" class="phone-case"></a>
            <div class="inner-details">
@@ -88,7 +80,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -97,25 +89,25 @@
             </div>
             <div class="product-category">Atm Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
-            <a href="./forma.html"><img src="./image/anime.png" alt="ab" class="phone-case"></a>
+            <img src="./image/anime.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">ANIME</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
-            <a href="./forms.html"><img src="./image/sports.png" alt="ab" class="phone-case"></a>
+            <img src="./image/sports.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">SPORTS</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract1.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -124,16 +116,16 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"data-category="Phone Cases">
              <div class="ribbon">New</div>
-            <a href="./formab.html"><img src="./image/abstract2.png" alt="ab" class="phone-case"></a>
+            <img src="./image/abstract2.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">ABSTRACT</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -142,7 +134,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract4.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -151,7 +143,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -160,7 +152,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury1.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -169,7 +161,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury2.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -178,7 +170,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -187,7 +179,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury4.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -196,7 +188,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -205,7 +197,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/marbel1.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -214,7 +206,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/marbel2.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -223,7 +215,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/marbel3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -232,7 +224,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/marbel4.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -241,7 +233,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/marbel5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -250,7 +242,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/marbel6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -259,7 +251,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/marbel7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -268,7 +260,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/marbel8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -277,7 +269,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/marbel9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -286,7 +278,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/marbel10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -295,7 +287,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -304,7 +296,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -313,7 +305,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -322,7 +314,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -331,7 +323,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -340,7 +332,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -349,7 +341,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -358,7 +350,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -367,7 +359,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -376,7 +368,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -385,7 +377,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime1.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -394,7 +386,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/anime2.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -403,7 +395,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -412,7 +404,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/anime4.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -421,7 +413,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/anime5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -430,7 +422,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/anime6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -439,7 +431,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -448,7 +440,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <a href="./forms.html"><img src="./image/sports1.png" alt="ab" class="phone-case"></a>
            <div class="inner-details">
@@ -457,7 +449,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports2.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -466,7 +458,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -475,7 +467,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports4.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -484,7 +476,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract11.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -493,7 +485,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract12.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -502,7 +494,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract13.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -511,7 +503,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract14.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -520,7 +512,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract15.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -529,7 +521,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract16.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -538,7 +530,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract17.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -547,7 +539,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract18.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -556,7 +548,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract19.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -565,7 +557,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract20.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -574,7 +566,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract21.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -583,7 +575,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -592,7 +584,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -601,7 +593,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -610,7 +602,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/anime11.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -619,7 +611,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god1.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -628,7 +620,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god2.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -637,7 +629,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -646,7 +638,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract22.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -655,7 +647,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract23.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -664,7 +656,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract24.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -674,7 +666,7 @@
             <div class="product-category">Laptop Sleeves</div>
         </div>
    
-        <div class="product-card">
+        <div class="product-card"  data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -683,7 +675,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -692,7 +684,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -701,7 +693,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -710,7 +702,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/sports6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -719,7 +711,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -728,7 +720,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -737,7 +729,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -746,7 +738,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/sports10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -755,7 +747,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -764,7 +756,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -773,7 +765,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/god11.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -782,7 +774,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury5.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -791,7 +783,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/luxury6.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -800,7 +792,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury7.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -809,7 +801,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract25.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -818,7 +810,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract26.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -827,7 +819,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract27.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -836,7 +828,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract28.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -845,7 +837,7 @@
             </div>
             <div class="product-category">Laptop Sleeves</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/abstract29.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -854,7 +846,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card"  data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/luxury8.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -863,7 +855,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury9.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -872,7 +864,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury10.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -881,7 +873,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury11.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -890,7 +882,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/luxury12.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -899,7 +891,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract30.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -908,7 +900,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract31.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -917,16 +909,16 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-         <div class="product-card">
+         <div class="product-card"  data-category="Atm Skin">
              <div class="ribbon">New</div>
-            <img src="./image/atm1.jfif" alt="ab" class="phone-case">
+            <img src="./image/atm1.png" alt="ab" class="phone-case">
            <div class="inner-details">
             <h4 class="product-name">LUXURY</h4>
             <div class="price">Rs 850 - Rs 1500</div>
             </div>
             <div class="product-category">Atm Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Laptop Sleeves">
              <div class="ribbon">New</div>
             <img src="./image/abstract32.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -936,7 +928,7 @@
             <div class="product-category">Laptop Sleeves</div>
         </div>
       
-         <div class="product-card">
+         <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm3.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -946,7 +938,7 @@
             <div class="product-category">Atm Skin</div>
         </div>
          
-         <div class="product-card">
+         <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm5.jfif" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -955,7 +947,7 @@
             </div>
             <div class="product-category">Atm Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract34.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -964,7 +956,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Phone Cases">
              <div class="ribbon">New</div>
             <img src="./image/abstract35.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -973,7 +965,7 @@
             </div>
             <div class="product-category">Phone Cases</div>
         </div>
-         <div class="product-card">
+         <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm6.jfif" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -982,7 +974,7 @@
             </div>
             <div class="product-category">Atm Skin</div>
         </div>
-         <div class="product-card">
+         <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm7.jfif" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -991,7 +983,7 @@
             </div>
             <div class="product-category">Atm Skin</div>
         </div>
-        <div class="product-card">
+        <div class="product-card" data-category="Tablet Skin">
              <div class="ribbon">New</div>
             <img src="./image/abstract30.png" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -1000,7 +992,7 @@
             </div>
             <div class="product-category">Tablet Skin</div>
         </div>
-         <div class="product-card">
+         <div class="product-card" data-category="Atm Skin">
              <div class="ribbon">New</div>
             <img src="./image/atm8.jfif" alt="ab" class="phone-case">
            <div class="inner-details">
@@ -1017,6 +1009,7 @@
         <h3>USEFUl LINKS</h3>
          <a href="./product.html"><p>Products</p></a>
         <a href="./order.html"><p>Place order</p></a> 
+        <a href="./index.html"><p>Home</p></a>
         </div>
         <div class="social">
         <h3>SOCIAL MEDIA</h3>
@@ -1031,5 +1024,6 @@
      <hr>
         <div>© 2025 Caseunity.np</a>. All Rights Reserved.</div>
 </footer>
+<script src="./product.js"></script>
 </body>
 </html>

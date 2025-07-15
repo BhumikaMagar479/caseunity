@@ -62,7 +62,16 @@
 .navlinks.active{
     display: flex;
 }
+.active:hover{
 
+      background-color: rgb(151, 150, 150);
+}
+#a{
+      padding: 2%;
+      margin-top: 5%;
+    font-size: large;
+    font-weight: bold;
+}
 .search{
       position: relative;
 }
@@ -88,21 +97,22 @@
       width: 300px;
      padding: 40px;
 }
+.container1 h2{
+      padding-bottom: 5%;
+}
 h2{
       margin-top: 20px;
       color: #333;
 }
-.filter-section{
+.btn{
       margin-bottom: 20px;
      width: 500px;
 }
-.filter-section label{
+.btn label {
       display: block;
       margin: 6px 0;
 }
-input[type="checkbox"]{
-      margin-right: 3px;
-}
+
 .foot {
   text-align: center;
  margin-bottom: 0px;
@@ -200,6 +210,7 @@ input[type="checkbox"]{
 }
 .h1{
       font-size:270%;
+      padding-top: 4%;
 }
 .p{
       padding: 10px;

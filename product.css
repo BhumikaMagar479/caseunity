@@ -71,6 +71,7 @@
       margin-top: 5%;
     font-size: large;
     font-weight: bold;
+    border-radius: 8%;
 }
 .search{
       position: relative;

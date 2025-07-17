@@ -21,43 +21,43 @@
     width: 105px;
     height: 105px;
 }
-
 .navbar ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row; 
-    font-size:x-large;
-  margin-top: 40px;
-  margin-right:19.0%;
-   
-}
-.navbar ul li{
-    height: 25px;
-    padding: 10px;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-}
-.navbar ul li a:hover {
-    color: lightblue;
-}
-
-.navbar a::after{
-    content:"" ;
-    display: block;
-    width:0;
-    height: 2px;
-    background-color: orange;
-    margin-top: 3px;
-    transition: 0.2s;
-}
-.navbar a:hover::after{
-     width: 100%;
-}
-.navlinks.active{
-    display: flex;
-}
+      list-style: none;
+      display: flex;
+      flex-direction: row; 
+      font-size:x-large;
+    margin-top: 40px;
+    margin-left: 500px;
+     
+  }
+  .navbar ul li{
+    margin: 0 20px;
+      height: 25px;
+      padding: 10px;
+  }
+  .navbar ul li a{
+      text-decoration: none;
+      color: white;
+  }
+  .navbar ul li a:hover {
+      color: lightblue;
+  }
+  
+  .navbar a::after{
+      content:"" ;
+      display: block;
+      width:0;
+      height: 2px;
+      background-color: orange;
+      margin-top: 3px;
+      transition: 0.2s;
+  }
+  .navbar a:hover::after{
+       width: 100%;
+  }
+  .navlinks.active{
+      display: flex;
+  }
   
     .track-container {
       padding: 65px;

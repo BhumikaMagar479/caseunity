@@ -64,7 +64,7 @@
   .wallpaper{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./image/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(71, 70, 70, 0.75)),url(./image/fish.png);
     background-size: cover;
     background-position: center;
   }
@@ -99,8 +99,7 @@
     position: relative;
     background:transparent ;
   }
-  .info  button: span{
-    back
+  .span{
     height:100% ;
     width:0 ;
     border-radius:25px ;
@@ -109,6 +108,7 @@
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
+    background-color: #009688;
   }
   .info button:hover span{
     width: 100%;

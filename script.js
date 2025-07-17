@@ -186,3 +186,41 @@ function showSlide(index) {
 function changeSlide(step) {
   showSlide(currentIndex + step);
 }
+
+
+
+
+const serviceContainer = document.getElementById("service-container");
+service.forEach(service => { 
+  const card = document.createElement("div");
+  card.className="service-card";
+
+  card.innerHTML = `
+    <img src="${service.image}" alt="${service.title}">
+   <h3>${service.title}</h3>
+    <p>${service.description}</p>
+  
+  `;
+  serviceContainer.appendChild(card);
+}
+);
+const people= [
+  {
+    image: "image/coat.webp",
+    title: "Modern Approach:",
+    description: " A Nepalese fashion brand known for its modern stylish.",
+    
+  },
+  {
+    image: "image/coat.webp",
+    title: "Wide Range of Products:",
+    description: "HUBA offers a diverse range of clothing, including tops, bottoms, and sets, catering to various tastes and styles.",
+    
+  },
+ { 
+  image: "image/coat.webp",
+  title: "Inspiration:",
+  description: "HUBA's name, inspired by the Aramaic word for love reflects its commitment to infusing passion and affection into its designs.",
+ 
+},
+];

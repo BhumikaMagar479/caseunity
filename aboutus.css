@@ -117,3 +117,78 @@
   .info button:hover{
     border: none;
   }
+  .about h1{
+    text-align: center;
+}
+.service-container{
+
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+
+}
+.service-card{
+  width: 200px;
+  overflow: hidden;
+  margin: 5px;
+  border: #000 solid 1.5px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+  /*transition: background 0.3s ease;*/
+}
+.service-card:hover{
+ overflow: hidden;
+  cursor: pointer;
+   transform: translateY(-20px);
+    background-color:#c6def1;
+  
+
+}
+.service{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.service-card img{
+  height: 260px;
+  width: 100%;
+ object-fit: cover;
+ display: block;
+ justify-content: space-between;
+object-position: center;
+}
+.service-card p{
+  background-color: #fff;
+}
+.service-card h3{
+  background-color: #fff;
+}
+.service-card h3:hover{
+  background-color: #c6def1;
+}
+.service-card p:hover{
+  background-color: #c6def1;
+}
+.about{
+  display: flex;
+  padding: 60px;
+}
+.about p{
+  font-size:19px ;
+  font-style:italic;
+  text-align: center;
+  padding: 60px;
+  letter-spacing: 1px;
+font-family: serif;
+
+}
+.about img{
+  padding: 40px;
+}

@@ -1,5 +1,13 @@
+const hamburger=document.querySelector('.hamburger');
+const nav=document.querySelector('.nav');
 
-    document.getElementById('trackForm').addEventListener('submit', function (e) {
+hamburger.addEventListener ('click' ,()=>{
+  hamburger.classList.toggle('active');
+    nav.classList.toggle('active');
+});
+   
+   
+   document.getElementById('trackForm').addEventListener('submit', function (e) {
       e.preventDefault();
 
       const orderId = document.getElementById('orderId').value.trim();

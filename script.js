@@ -1,8 +1,9 @@
-const hamburger=document.getElementById('hamburger');
-const navlinks=document.getElementById('navlinks');
+const hamburger=document.querySelector('.hamburger');
+const nav=document.querySelector('.nav');
 
 hamburger.addEventListener ('click' ,()=>{
-    navlinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+    nav.classList.toggle('active');
 });
 
 

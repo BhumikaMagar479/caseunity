@@ -9,6 +9,7 @@ hamburger.addEventListener ('click' ,()=>{
 
 
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const productDetails = {
     "Phone Cases": {

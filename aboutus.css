@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+
   box-sizing: border-box;
 }
 .navbar {
@@ -258,7 +258,6 @@ object-position: center;
 .about p{
   font-size:19px ;
   font-style:italic;
-  
   padding: 30px;
   padding-top: 0%;
   letter-spacing: 1px;
@@ -266,15 +265,28 @@ font-family: serif;
 
 }
 .about img{
+ 
   padding: 30px;
+  display: flex;
   padding-top: 0%;
-  transform: translate3d();transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-direction:alternate-reverse ;
+  
 
 }
-.img:hover{
-  cursor: pointer;
- transition:all 4.0s ease;
+.img{
+  
+
+  transition: 0.3s;
+  display: block;
+  border-radius: 4px;
 }
+.img:hover img{
+  cursor: pointer;
+  scale: 1.1;
+ transform: translatex(20px);
+ 
+}
+
 .ab-detail{
   text-align: left;
   font-weight: bold;
@@ -285,6 +297,23 @@ font-family: serif;
   padding: 0%;
   margin: 0%;
  
+}
+.title-text{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.title-text p{
+  margin: auto;
+  font-size: 20px;
+  color: #009688;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.title-text h1{
+  font-size: 50px;
 }
  #testimonial{
 width: 100%;
@@ -298,8 +327,62 @@ justify-content: space-between;
 align-items: flex-start;
 flex-wrap: wrap;
 }
-.testimonial-col{
-flex-basis: 28%;
-padding: 10px;
-margin-bottom: 30p
+.testimonoal-col{
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #00968814;
+  cursor: pointer;
+  transition: transform .5s;
+  
 }
+.testimonoal-col p{
+  font-size: 14px;
+}
+.user{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;;
+}
+.user img{
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.testimonoal-col:hover{
+  transform: translateY(7px);
+}
+@media  screen and (max-width:770px) {
+  .tstimonoal-col{
+    flex-basis: 100%;
+  }
+}
+.foot {
+  text-align: center;
+ margin-bottom: 0px;
+ background-color:black;
+ justify-content: space-between;
+ padding:  80px;
+ color:white;
+ display: flex;
+ width: 100%;
+
+}
+
+.foot img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    
+   
+}
+.use a{
+   color: white;
+   text-decoration: none;
+}
+
+ 

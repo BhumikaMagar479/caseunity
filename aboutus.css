@@ -23,6 +23,9 @@
     height: 105px;
     
 }
+#review{
+  padding-bottom: 5%;
+}
 
 .nav-links ul{
       list-style: none;

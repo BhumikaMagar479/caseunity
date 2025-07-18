@@ -198,6 +198,7 @@
  padding:  80px;
  color:white;
  display: flex;
+
 }
 .foot img{
     border-radius: 100%;
@@ -206,6 +207,9 @@
     height: 170px;
     
    
+}
+.sec{
+  height: 45rem;
 }
 .use a{
    color: white;

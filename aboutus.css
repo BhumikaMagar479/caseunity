@@ -284,3 +284,27 @@ font-family: serif;
   margin: 0%;
  
 }
+
+/*What Our Customer Says*/
+#testimonial{
+  width: 100%;
+  padding: 70px 0;
+}
+
+.testimonial-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.testimonial-col{
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #00968814;
+  cursor: pointer;
+}

@@ -139,16 +139,15 @@ h2 {
       margin-bottom: 10px;
 }
 .case img{
+  padding-top: 10rem;
   width: 100%;
-  height: 600px;
+  height: 40rem;
 }
 .case{
   display: flex;
   gap: 3rem;
 }
-@media screen {
-  
-}
+
 .case1 {
  justify-content: center;
   margin-top: 50px;
